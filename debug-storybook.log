@@ -1,32 +1,28 @@
-[15:46:21.400] [INFO] storybook v10.2.3
-[15:46:23.143] [DEBUG] Getting package.json info for C:/Users/msiva/Desktop/Accenture/Practice/basics/package.json...
-[15:46:25.917] [DEBUG] Serving static files from [36mnode_modules/@chromatic-com/storybook/assets[39m at [36m/addon-visual-tests-assets[39m
-[15:46:25.919] [INFO] Starting...
-[15:46:27.140] [DEBUG] Starting preview..
-[15:46:27.168] [WARN] 🚨 Unable to index ./stories/BoxModel.stories.html:
-  Error: Invariant failed: No matching indexer found for C:/Users/msiva/Desktop/Accenture/Practice/basics/stories/BoxModel.stories.html
-    at invariant (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/_node-chunks/chunk-MFL6BBD6.js:20:11)
-    at _StoryIndexGenerator.extractStories (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5908:5)
-    at file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5854:83
-    at file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5830:45
-    at Array.map (<anonymous>)
-    at file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5827:30
-    at Array.map (<anonymous>)
-    at _StoryIndexGenerator.updateExtracted (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5819:23)
-    at _StoryIndexGenerator.ensureExtracted (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5853:16)
-    at _StoryIndexGenerator.initialize (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:5814:16)
-[15:46:27.190] [ERROR] Failed to build the preview
-[15:46:27.196] [ERROR] Error: Unable to index ./stories/BoxModel.stories.html
-    at _StoryIndexGenerator.getIndexAndStats (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:6082:15)
-    at async _StoryIndexGenerator.getIndex (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:6071:13)
-    at async getOptimizeDeps (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/@storybook/builder-vite/dist/index.js:1845:15)
-    at async createViteServer (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/@storybook/builder-vite/dist/index.js:1871:19)
-    at async Module.start (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/@storybook/builder-vite/dist/index.js:1906:17)
-    at async storybookDevServer (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:7207:83)
-    at async buildOrThrow (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:4504:12)
-    at async buildDevStandalone (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:7577:66)
+[20:17:20.621] [INFO] storybook v10.2.3
+[20:17:21.083] [ERROR] [38;2;241;97;97mSB_CORE-SERVER_0007 (MainFileEvaluationError): Storybook couldn't evaluate your [33m.storybook\main.js[39m file.
+
+Original error:
+[37mTypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".scss" for \styles\main.scss
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:219:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)
+    at defaultLoad (node:internal/modules/esm/load:120:22)
+    at async nextLoad (node:internal/modules/esm/hooks:748:22)
+    at async nextLoad (node:internal/modules/esm/hooks:748:22)
+    at async Hooks.load (node:internal/modules/esm/hooks:385:20)
+    at async handleMessage (node:internal/modules/esm/worker:199:18)[39m[39m
+    at loadMainConfig (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/_node-chunks/chunk-MVRFS4XG.js:11707:11)
+    at async buildDevStandalone (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/core-server/index.js:7518:16)
     at async withTelemetry (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/_node-chunks/chunk-JS7T7TRL.js:218:12)
     at async dev (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/bin/core.js:2734:3)
-[15:46:27.231] [WARN] Broken build, fix the error above.
+    at async _Command.<anonymous> (file:///C:/Users/msiva/Desktop/Accenture/Practice/basics/node_modules/storybook/dist/bin/core.js:2801:92)
+[20:17:21.116] [WARN] Broken build, fix the error above.
 You may need to refresh the browser.
-[15:46:40.797] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":false}
+[20:17:21.201] [WARN]   Failed to load preset: "C:/Users/msiva/Desktop/Accenture/Practice/basics/.storybook/main.js"
+[20:17:21.203] [ERROR] TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".scss" for .\styles\main.scss
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:219:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)
+    at defaultLoad (node:internal/modules/esm/load:120:22)
+    at async nextLoad (node:internal/modules/esm/hooks:748:22)
+    at async nextLoad (node:internal/modules/esm/hooks:748:22)
+    at async Hooks.load (node:internal/modules/esm/hooks:385:20)
+    at async handleMessage (node:internal/modules/esm/worker:199:18)

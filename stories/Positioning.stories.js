@@ -1,4 +1,4 @@
-import "../styles/layouts/positioning.css"
+
 
 export default {
   title: 'Layout/Positioning',

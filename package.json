@@ -12,15 +12,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "storybook": "^10.2.3",
-    "@storybook/html-vite": "^10.2.3",
     "@chromatic-com/storybook": "^5.0.0",
-    "@storybook/addon-vitest": "^10.2.3",
     "@storybook/addon-a11y": "^10.2.3",
     "@storybook/addon-docs": "^10.2.3",
-    "vitest": "^4.0.18",
-    "playwright": "^1.58.1",
+    "@storybook/addon-vitest": "^10.2.3",
+    "@storybook/html-vite": "^10.2.3",
     "@vitest/browser-playwright": "^4.0.18",
-    "@vitest/coverage-v8": "^4.0.18"
+    "@vitest/coverage-v8": "^4.0.18",
+    "playwright": "^1.58.1",
+    "sass-embedded": "^1.97.3",
+    "storybook": "^10.2.3",
+    "vitest": "^4.0.18"
   }
 }

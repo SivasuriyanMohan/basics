@@ -1,0 +1,32 @@
+import { Meta , Canvas, Controls} from "@storybook/addon-docs/blocks";
+import * as BoxModel from '../layout/BoxModel.stories';
+
+<Meta title="Docs/BoxModel" />
+
+
+# BoxModel Documentation
+Use this component for primary user actions.
+
+<Canvas of={BoxModel.Playground} />
+
+## Component API
+<Controls  of={BoxModel.Playground}/>
+
+## Description
+
+### Contentontent-box (DEFAULT, DANGEROUS)
+
+Width = content only
+
+Padding + border increase final size
+
+Layouts break silently
+
+
+### Border-box (ENTERPRISE DEFAULT)
+
+Width = content + padding + border
+
+Predictable layouts
+
+Responsive systems depend on this
