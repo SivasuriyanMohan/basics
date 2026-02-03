@@ -1,0 +1,44 @@
+/* ================================
+   BOX MODEL DEMO STYLES
+   Purpose: Visualize sizing behavior
+================================ */
+
+.box-model-wrapper {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.box-model-container {
+  border: 2px dashed #999;
+  padding: 16px;
+  width: 260px;
+}
+
+/* This is the actual demo box */
+.box-model-box {
+  width: 200px;
+  height: 120px;
+
+  padding: var(--padding);
+  border: var(--border-width) solid #333;
+  margin: var(--margin);
+
+  background-color: #cfe8ff;
+  color: #000;
+
+  box-sizing: var(--box-sizing);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+}
+
+/* Labels */
+.box-model-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}

@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  height: 200px;
+  border: 2px dashed gray;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: orange;
+  padding: 8px;
+}
+.fixed-box {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  background: orange;
+  padding: 8px;
+}
+.relative-box {
+  position: relative;
+  top: 16px;
+  right: 16px;
+  background: orange;
+  padding: 8px;
+}
+.sticky-box {
+  position: sticky;
+  top: 16px;
+  right: 16px;
+  background: orange;
+  padding: 8px;
+}
+.static-box {
+  position: static;
+  top: 16px;
+  right: 16px;
+  background: orange;
+  padding: 8px;
+}
